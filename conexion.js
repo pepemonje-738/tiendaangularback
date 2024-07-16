@@ -15,11 +15,12 @@
     Ayuda:      https://parzibyte.me/blog/contrataciones-ayuda/
     Contacto:   https://parzibyte.me/blog/contacto/
 */
-const mysql = require("mysql");
+const mysql = require("mysql2");
 // Coloca aquí tus credenciales
 module.exports = mysql.createPool({
   host: "viaduct.proxy.rlwy.net",
   user: "root",
   password: "VhYkGjQDDmJQmYuPtAfSafAnrywKRlWB",
-  database: "railway"
+  database: "railway",
+  port: "57350"
 });

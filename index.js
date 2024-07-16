@@ -38,7 +38,7 @@ const existeProducto = (carrito, producto) => {
 }
 
 
-const DOMINIO_PERMITIDO_CORS = "https://tiendaangularback-production.up.railway.app",
+const DOMINIO_PERMITIDO_CORS = "http://localhost:4200",
   DIRECTORIO_FOTOS = path.join(__dirname, "fotos_productos"),
   DIRECTORIO_DIST = path.join(__dirname, "dist"),
   PUERTO = 57350;
